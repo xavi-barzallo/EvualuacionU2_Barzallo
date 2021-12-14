@@ -15,4 +15,5 @@ public interface DepartamentoONRemoto {
 	
 	public void actualizar(Departamento op);
 	
+	public Departamento getBuscarDep(int codigoDep);
 }

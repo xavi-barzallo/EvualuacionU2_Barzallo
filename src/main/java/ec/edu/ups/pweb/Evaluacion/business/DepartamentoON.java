@@ -21,5 +21,10 @@ public class DepartamentoON implements DepartamentoONRemoto {
 		daoProducto.update(op);
 	}
 	
+	public Departamento getBuscarDep(int codigoDep) {
+		//
+		return daoProducto.getBuscarDep(codigoDep);
+	}
+	
 }
 
